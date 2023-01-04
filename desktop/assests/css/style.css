@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+}
+@media (max-width:600px) {
+
+
+    .topnav a ,.topnav i,.topnav-left{
+        float: none;
+        width: 100%;
+    }
+    body{
+        width:100% !important;
+        display: block;
+        font-size: large !important;
+    }
+   *{box-sizing: inherit;}
+    
+}
+body{
+    background-color: rgb(228, 157, 210) !important; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    object-fit: cover;
+    object-position: center;
+    text-transform: capitalize;
+    color: black;
+}
+.main-page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    padding: 14px 10px;
+    color: black;
+}
+i{
+    float: right;
+    padding: 14px 10px;
+}
+p{
+    font-size: 12px; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+h2{
+    font-size:25px;
+    text-align: center;
+    margin-left: 0;   
+}
+h3{
+    font-size: 15px;
+    font-weight: 200;   
+}
+li{
+    list-style-type:none;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 163, 189);
+}
+
+.topnav{
+    overflow: hidden;
+}
+.topnav-left{
+    float: left;
+    margin-left: 45px;
+}
+.topnav a{
+    float: right;
+}
+
+.content{
+    margin-left: 45px;
+}
+
+.designation h3{
+    color: orange;
+    text-align: left;
+    margin-left: 0;
+}
+button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.content button:hover{
+    background-color: rgb(63, 235, 100);
+}
+
+.content button{
+    border: 1px solid blue;
+    background-color: transparent;
+    
+}
+.profile-cards, .profile-cards2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;  
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(139, 221, 247) ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+}
+.card-list li{
+    text-transform: lowercase;
+}
+.card-stats, .card2-stats{
+    height: auto;
+    font-weight: 900;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row; 
+    padding-bottom: 5px; 
+}
+.card-stats{
+    align-items: center;
+    justify-content: center;
+}
+.card-stats img, .card2-stats img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin: 10px 10px ;
+}
+.card-list{
+    background-color: aliceblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 20px 30px;
+    margin-top: 20px ;
+    justify-content: space-evenly;
+}
+.profile-cards2 .fa-solid,.fa-regular{
+    padding: 0;
+    color: rgb(241, 191, 81);
+    float: left;
+}
+
+.card2-stats img{
+    justify-content: flex-start;
+    
+}
+.card2 p{
+    text-align: left;
+}
+.card3{
+    max-width:50% ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 253, 249);
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.card3-image img{
+    width:250px;
+    height: 200px;
+}
+.card3-role h3{
+    text-align: center;
+    margin-left: 0;
+}
+.contact .fa-brands{
+    padding:5px;
+    color: rgb(43, 89, 214);
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.para-last h2{
+    text-align: left;
+    margin-left: 45px;
+}
+.para-last h3{
+    text-transform: lowercase;
+    font-weight: 0;
+}
+.appointment-para h2,h3{
+    text-align: left;
+    margin-left: 45px;
+}
+.appointment button, .lastsection button, .submitbutton{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    margin-left: 45px;
+    border: none;
+}
+.submitbutton{
+    margin-left:0;
+    width:100px;
+}
+input,select{
+    width: 270px;
+    height: 40px;
+    margin-top: 20px;
+    color: grey;
+    margin-left: 45px;
+}
+
+textarea{
+    margin-top: 20px;
+    color: grey;
+    margin-left: 45px;
+    
+}
+
+.lastsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.endnav{
+    overflow: hidden;
+    margin: 10px 20px;
+}
+.endnav-right a{
+    float: left;
+    margin-left: 45px;
+    color: aliceblue;
+}
+.endofpagedetails{
+    display: flex;
+    flex-direction:row ;
+}
+.detail1{
+    margin-left: 45px;
+    margin-top:10px;
+    color: rgb(116, 117, 117) !important;
+    margin-bottom: 100px;
+}  
+.detail1 a{
+    padding: 20px;
+    color: rgb(116, 117, 117) !important;
+}
+
+.detail1 li:first-child{
+    font-size: 15px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+}
